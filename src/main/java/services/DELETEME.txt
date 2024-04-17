@@ -1,0 +1,11 @@
+INSERT INTO cd (Title, Description, Year, Arist, Price)
+VALUES
+('Vespertine','Electronic','2001','Bjork','8.40'),
+('Parallelograms','Folk','1970','Linda Perhacs','17.65'),
+('JAGUAR', 'R&B', '2020', 'Victoria Monet', '15.00');
+
+INSERT INTO artist (First_Name, Last_Name, Instrument)
+VALUES
+ ("Bjork", "Guomundsdottir", "Piano"),
+("Linda", "Perhacs", "Guitar"),
+("Victoria", "Monet", "Vocals");
