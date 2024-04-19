@@ -7,7 +7,7 @@ import javax.persistence.EntityManager;
 import java.util.Set;
 
 import static EntityManager.EntityManager.getEntityManager;
-
+//
 public class ArtistService {
   public Artist findById(Long id){
     EntityManager em = getEntityManager();
