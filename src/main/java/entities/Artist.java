@@ -21,6 +21,18 @@ public class Artist {
     this.instrument = instrument;
   }
 
+  public void setFirstName(String firstName) {
+    this.firstName = firstName;
+  }
+
+  public void setLastName(String lastName) {
+    this.lastName = lastName;
+  }
+
+  public void setInstrument(String instrument) {
+    this.instrument = instrument;
+  }
+
   public String getInstrument() {
     return instrument;
   }
